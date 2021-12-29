@@ -70,26 +70,25 @@ body{
   }*/
 
 
-  button{
+  form{
     display: block;
     width: 250px;
     height: 50px;
     line-height: 50px;
     font-weight: bold;
     text-decoration: none;
-    background: #333;
+    /*background: rgb(85, 92, 84);*/
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: 3px solid rgb(100, 100, 100);
+    border: 3px solid rgb(143, 143, 143);
     transition: all .35s;
 
     border-radius: 30px;
   }
 
-    
-  button:hover{
+  form:hover{
     width: 200px;
     border: 3px solid #2ecc71;
     background: transparent;
